@@ -41,6 +41,8 @@ const Header = () => {
                   </li>
                 </ul>
               </nav>
+
+              {/* As soon as the screen size decreases tje Login and Sign up get hidden */}
               <ul className="flex flex-col items-center justify-center">
                 <li className="my-5">
                   <button className="text-slate-400">Login</button>
