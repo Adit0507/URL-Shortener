@@ -46,11 +46,23 @@ const Header = () => {
                   <button className="text-slate-400">Login</button>
                 </li>
                 <li>
-                  
+                  <button className="btn-cta rounded-full">Sign Up</button>
                 </li>
               </ul>
             </div>
           )}
+
+          <div className="hidden md:block">
+            <ul className="flex items-center ml-5">
+              <li className="my-5 md:my-0 md:mr-5">
+                <button className="text-slate-400">Login</button>
+              </li>
+              <li>
+                <button className="btn-cta rounded-full">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </header>
     </>
