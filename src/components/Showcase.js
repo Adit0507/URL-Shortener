@@ -14,7 +14,7 @@ const Showcase = () => {
               Build your brand’s recognition and get detailed insights on how
               your links are performing.
             </p>
-            <button className="btn-ga rounded-">Get Started</button>
+            <button className="btn-cta rounded-full">Get Started</button>
           </article>
 
           <article>
