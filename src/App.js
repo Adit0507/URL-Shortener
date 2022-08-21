@@ -1,4 +1,5 @@
 import Advanced from "./components/Advanced";
+import Boost from "./components/Boost";
 import Header from "./components/Header";
 import Shortener from "./components/Shortener";
 import Showcase from "./components/Showcase";
@@ -10,6 +11,7 @@ export default function App() {
       <Showcase />
       <Shortener />
       <Advanced />
+      <Boost />
     </>
   );
 }
